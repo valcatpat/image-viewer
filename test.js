@@ -1,10 +1,5 @@
 var images = [];
 
-// var subredditRequest = prompt("Enter a subreddit name.");
-
-/* var dropdown = document.getElementById('imageSelection');
-var dropdownValue = dropdown.options[dropdown.selectedIndex].value; */
-
 var dropdown = document.getElementById('imageSelection');
 
 dropdown.onchange = function subredditRequest() {
