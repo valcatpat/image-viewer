@@ -1,0 +1,15 @@
+* {
+    font-family: $font-stack;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3 {
+    margin-bottom: 20px;
+    color: $primary-text-color;
+}

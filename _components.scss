@@ -1,0 +1,38 @@
+// Displayed Image
+
+.slider img {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    height: auto;
+}
+
+// Buttons
+
+button {
+    color: $button-text-color;
+    height: 40px;
+    width: 50px;
+    margin-right: 10px;
+    border: none;
+}
+
+.prev, 
+.next {
+    background-color: $prev-next-bg-color;
+}
+
+.start, 
+.stop {
+    background-color: $start-stop-bg-color;
+}
+
+.prev:hover, 
+.next:hover {
+    background-color:$prev-next-hover;
+}
+
+.start:hover,
+.stop:hover {
+    background-color: $start-stop-hover;
+}
