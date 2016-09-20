@@ -64,13 +64,10 @@ var timer = function () {
 
 var timerID;
 
-console.log(timerID);
-
 playButton.onclick = function () {
     timerID = timer();
 }
 
 stopButton.onclick = function () { 
     clearInterval(timerID);
-    console.log("WHAT THE FUCK");
 };
